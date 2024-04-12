@@ -8,6 +8,27 @@
       "expo-router"
     ],
     "name": "phlebo-app",
-    "slug": "phlebo-app"
+    "slug": "phlebo-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6adf80d9-2193-4bf4-a9ee-19f11805a38b"
+      }
+    },
+    "owner": "cmplx_dev",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6adf80d9-2193-4bf4-a9ee-19f11805a38b"
+    },
+    "android": {
+      "package": "com.cmplx_dev.phleboapp"
+    },
+    "ios": {
+      "bundleIdentifier": "iostest"
+    }
   }
 }
